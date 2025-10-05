@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import CommitsTable from '@/components/navigation/CommitsTable.vue';
+import CommitsTable from '@/components/CommitsTable.vue';
 import { useGithubStore } from '@/stores/github';
 import { onMounted, ref } from 'vue';
 import { useRoute } from 'vue-router';

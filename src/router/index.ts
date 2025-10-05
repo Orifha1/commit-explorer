@@ -16,7 +16,7 @@ const router = createRouter({
     {
       path: '/favourites-commits',
       name: 'favourites',
-      component: () => import('@/components/navigation/FavouritesList.vue'),
+      component: () => import('@/components/FavouritesList.vue'),
     },
   ],
 });
