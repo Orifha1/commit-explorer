@@ -33,7 +33,7 @@ export const get = async <T>(path: string): Promise<IApiResponse<T>> => {
       };
     } else {
       return {
-        success: true,
+        success: false,
         body: responseBody,
         message: 'Request successful',
       };
